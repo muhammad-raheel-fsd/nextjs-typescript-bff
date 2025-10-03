@@ -1,5 +1,4 @@
 const UsersTable = () => {
-  const firstName = "john";
   return <div>UsersTable</div>;
 };
 
