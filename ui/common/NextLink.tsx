@@ -1,6 +1,5 @@
+import Link, { type LinkProps } from "next/link";
 import React from "react";
-
-import Link, { LinkProps } from "next/link";
 
 import { cn } from "@/lib/utils";
 
@@ -18,7 +17,7 @@ const NextLink: React.FC<NextLinkProps> = ({
   return (
     <Link
       {...props}
-      className={cn("capitalize no-underline text-black m-0", className)}
+      className={cn("m-0 text-black capitalize no-underline", className)}
     >
       {children}
     </Link>

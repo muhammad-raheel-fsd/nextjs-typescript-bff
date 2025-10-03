@@ -11,7 +11,7 @@ const SectionWrapper: React.FC<{
   const Comp = component ?? "section";
   return (
     <Comp className={cn("w-full", parentClassName)}>
-      <div className={cn("max-w-7xl mx-auto", childrenClassName)}>
+      <div className={cn("mx-auto max-w-7xl", childrenClassName)}>
         {children}
       </div>
     </Comp>
